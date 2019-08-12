@@ -1,7 +1,5 @@
 package BankAcc;
-import java.awt.*;
-import java.lang.Math;
-import java.util.Random;
+
 
 public class BankAccount {
 	public int account_number;
