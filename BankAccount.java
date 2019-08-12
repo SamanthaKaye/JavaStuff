@@ -14,16 +14,18 @@ public class BankAccount {
 	public void deposit(int addMoney) {
 		if (addMoney < 0) { 
 		System.out.println( " You cannot deposit a negative amount. " );
-	}
+		}
 		else { this.account_balance += addMoney;
-	System.out.println( "$ " + addMoney + " "  + "deposited into the account " + this.account_number + ". ");
-	}
-	          } 
+		System.out.println( "$ " + addMoney + " "  + "deposited into the account " + this.account_number + ". ");
+		}
+	} 
 		public void withdraw( int removeMoney ){
 			if (removeMoney > this.account_balance) { 
 			System.out.println(" You cannot remove more than what is in your account. ");
 			}
 			else { this.account_balance -=  removeMoney;
 	System.out.println("$ " + removeMoney + " "  + "has been withdrawn from the account " + this.account_number + ". ");
-	} } }
+			} 
+	} 
+}
 	
