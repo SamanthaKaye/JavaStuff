@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Checkbox;
 
-public class SamanthaSmith extends Applet implements ActionListener{
+public class SamanthaSmithApplet extends Applet implements ActionListener{
 	Image flag;
 	Label colorLabel;
 	Button click, click1, click2, click3; 
